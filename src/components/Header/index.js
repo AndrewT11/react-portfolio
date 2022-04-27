@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-// import Navigation from "../pages/Navigation";
+import Navigation from "../pages/Navigation";
 import Home from "../pages/Home";
 import About from "../pages/About";
-// import Portfolio from "../pages/Portfolio";
+import Portfolio from "../pages/Portfolio";
 import Contact from "../pages/Contact";
 import "./header.css";
 
@@ -31,10 +31,10 @@ function Header() {
       {/* <h1 className="heading">
         Andrew Tran <br /> Portfolio Page
       </h1> */}
-      {/* <Navigation
+      <Navigation
         currentPage={currentPage}
         handlePageChange={handlePageChange}
-      /> */}
+      />
       {renderPage()}
     </div>
   );
