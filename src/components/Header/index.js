@@ -31,10 +31,10 @@ function Header() {
       {/* <h1 className="heading">
         Andrew Tran <br /> Portfolio Page
       </h1> */}
-      <Navigation
+      {/* <Navigation
         currentPage={currentPage}
         handlePageChange={handlePageChange}
-      />
+      /> */}
       {renderPage()}
     </div>
   );

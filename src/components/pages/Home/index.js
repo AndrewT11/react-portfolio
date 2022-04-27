@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import Turntable from "./images/turntable.jpg";
 
-export default function Home() {
+function Home() {
   return (
     <div className="home">
       <div className="home-left">
@@ -33,3 +33,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

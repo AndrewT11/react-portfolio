@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 
-export default function Footer() {
+function Footer() {
   return (
     <div className="footer">
       <h1 class="heading">Connect with me!</h1>
@@ -45,3 +45,5 @@ export default function Footer() {
     </div>
   );
 }
+
+export default Footer;
