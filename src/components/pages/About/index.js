@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Bebop from "./images/bebopsilhoutte.jpg";
 
-export default function About() {
+function About() {
   return (
     <div className="about">
       <div className="about-left">
@@ -37,3 +37,5 @@ export default function About() {
     </div>
   );
 }
+
+export default About;
