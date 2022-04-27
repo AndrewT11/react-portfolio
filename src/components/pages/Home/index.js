@@ -14,7 +14,7 @@ export default function Home() {
           </h1>
           <div className="home-title">
             <div className="home-title-wrapper">
-              <div className="home-title-jobs">Aspiring Web Developer</div>
+              <div className="home-title-jobs">Web Developer</div>
               <div className="home-title-jobs2">Problem Solver</div>
               <div className="home-title-jobs3">Dog Father</div>
               <div className="home-title-jobs4">Basketball Junkie</div>
@@ -22,8 +22,8 @@ export default function Home() {
             </div>
           </div>
           <div className="home-desc">
-            Full-stack web developer especially interested in creating React
-            websites and applications.
+            Full-stack web developer interested in creating websites and
+            applications, with especial interest in React.
           </div>
         </div>
       </div>
