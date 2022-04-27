@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import Me from "./images/headshotnobg.png";
+import Turntable from "./images/turntable.jpg";
 
 export default function Home() {
   return (
@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       </div>
       <div className="home-right">
-        <img src={Me} alt="" className="home-image"></img>
+        <img src={Turntable} alt="" className="home-image"></img>
       </div>
     </div>
   );
