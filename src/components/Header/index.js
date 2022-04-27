@@ -17,9 +17,9 @@ function Header() {
     if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === "Portfolio") {
-      return <Portfolio />;
-    }
+    // if (currentPage === "Portfolio") {
+    //   return <Portfolio />;
+    // }
     if (currentPage === "Contact") {
       return <Contact />;
     }
@@ -31,7 +31,10 @@ function Header() {
       <h1 className="heading">
         Andrew Tran <br /> Portfolio Page
       </h1>
-      <Home currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* <Navigation
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+      /> */}
       {renderPage()}
     </div>
   );
