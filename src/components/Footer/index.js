@@ -4,8 +4,8 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <h1 class="heading">Connect with me!</h1>
-      <nav class="contactbar">
+      <h1 className="heading">Connect with me!</h1>
+      <nav className="contactbar">
         <ul>
           <li>
             <a
@@ -13,7 +13,7 @@ function Footer() {
               rel="noreferrer"
               target="_blank"
             >
-              <i class="fas fa-envelope-open-text fa-4x"></i>
+              <i className="fas fa-envelope-open-text fa-4x"></i>
             </a>
           </li>
           <li>
@@ -22,7 +22,7 @@ function Footer() {
               rel="noreferrer"
               target="_blank"
             >
-              <i class="fab fa-github fa-4x"></i>
+              <i className="fab fa-github fa-4x"></i>
             </a>
           </li>
           <li>
@@ -32,12 +32,12 @@ function Footer() {
               target="_blank"
             >
               {" "}
-              <i class="fa fa-linkedin-square fa-4x"></i>
+              <i className="fa fa-linkedin-square fa-4x"></i>
             </a>
           </li>
           <li>
             <a href="Resume1.pdf">
-              <i class="far fa-file fa-4x"></i>
+              <i className="far fa-file fa-4x"></i>
             </a>
           </li>
         </ul>
