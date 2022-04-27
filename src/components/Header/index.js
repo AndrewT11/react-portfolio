@@ -28,9 +28,9 @@ function Header() {
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div className="header">
-      <h1 className="heading">
+      {/* <h1 className="heading">
         Andrew Tran <br /> Portfolio Page
-      </h1>
+      </h1> */}
       {/* <Navigation
         currentPage={currentPage}
         handlePageChange={handlePageChange}
