@@ -3,12 +3,38 @@ import "./portfolio.css";
 import project1 from "./images/madquickstatsSS.png";
 import project2 from "./images/1stteamallprofile.png";
 import project3 from "./images/dailyplannerSS.png";
+import project4 from "./images/artundergroundSS";
+import project5 from "./images/OTSPProfile.png";
 
 function Portfolio() {
   return (
     <div className="portfolio">
       <h1 className="heading">Portfolio</h1>
       <div className="gallery port-column">
+        <figure className="port-item">
+          <h2 className="item-header">Art Underground</h2>
+          <a className="hw1" href="https://art-underground.herokuapp.com/">
+            <img src={project4} alt="Art e-commerce" />
+          </a>
+          <button
+            className="github"
+            onclick="window.location.href='https://github.com/AndrewT11/ART-underground';"
+          >
+            Github Repository
+          </button>
+        </figure>
+        <figure className="port-item">
+          <h2 className="item-header">On the Same Page</h2>
+          <a className="hw1" href="https://on-the-same-page.herokuapp.com/">
+            <img src={project5} alt="A book searching/sharing API" />
+          </a>
+          <button
+            className="github"
+            onclick="window.location.href='https://github.com/AndrewT11/On-the-Same-Page';"
+          >
+            Github Repository
+          </button>
+        </figure>
         <figure className="port-item">
           <h2 className="item-header">Mad Quick Stats</h2>
           <a
