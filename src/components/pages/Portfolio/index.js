@@ -3,7 +3,7 @@ import "./portfolio.css";
 import project1 from "./images/madquickstatsSS.png";
 import project2 from "./images/1stteamallprofile.png";
 import project3 from "./images/dailyplannerSS.png";
-import project4 from "./images/artundergroundSS";
+import project4 from "./images/artundergroundSS.png";
 import project5 from "./images/OTSPProfile.png";
 
 function Portfolio() {
