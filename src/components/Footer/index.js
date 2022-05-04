@@ -36,7 +36,7 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="Resume1.pdf">
+            <a href="https://docs.google.com/document/d/1KgYkTOHGvnS2QV2N9UOBaQT37B4zkiIASSHcqXPRzKE/edit">
               <i className="far fa-file fa-4x"></i>
             </a>
           </li>
